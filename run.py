@@ -7,7 +7,9 @@ while True:
     start = input(
         'Start the game, or learn how to play first? Start/Learn > ')
     if start == 'Start':
+        print("")
         print(f'Okay, {name}. Let us begin.')
+        print("")
         break
     elif start == 'Learn':
         print("")
@@ -19,4 +21,6 @@ while True:
         print("Good luck.")
         print("")
 else:
+    print("")
     print("Invalid choice. Please enter 'Start' or 'Learn'.")
+    print("")
