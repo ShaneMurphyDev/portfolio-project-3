@@ -13,3 +13,5 @@ if start == 'Start' or 'S' or 's':
         print("Survive untill the end to win the game")
         print("Make the wrong choice and perish")
         print("Good luck.")
+    else:
+    print("Invalid choice. Please enter 'Start' or 'Learn'.")
