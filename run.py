@@ -4,8 +4,7 @@ print(f'Hello {name}. Welcome to my game. I hope you enjoy your time here.')
 
 # Main Menu
 while True:
-    start = input(
-        'Start the game, or learn how to play first? Start/Learn > ')
+    start = input('Start the game, or learn how to play first? Start/Learn > ')
     if start == 'Start':
         print("")
         print(f'Okay, {name}. Let us begin.')
@@ -20,7 +19,7 @@ while True:
         print("Make the wrong choice and perish")
         print("Good luck.")
         print("")
-else:
-    print("")
-    print("Invalid choice. Please enter 'Start' or 'Learn'.")
-    print("")
+    else:
+        print("")
+        print("Invalid choice. Please enter 'Start' or 'Learn'.")
+        print("")
