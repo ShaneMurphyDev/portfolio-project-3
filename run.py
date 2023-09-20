@@ -6,7 +6,7 @@ print(f'Hello {name}. Welcome to my game. I hope you enjoy your time here.')
 start = input('Start the game, or learn how to play first? Start/Learn > ')
 if start == 'Start' or 'S' or 's':
     print(f'Okay, {name}. Let us begin.')
-    elif start == 'Learn' or 'L' or 'l':
+    elif start == 'Learn' or start == 'L' or start == 'l':
         print("The objective of this game is to surive and escape the tundra")
         print("You will be prompted to make decisions along the way")
         print("Type your answers and hit enter make a choice")
