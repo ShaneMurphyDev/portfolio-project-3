@@ -3,9 +3,11 @@ name = input('Please enter your name > ')
 print(f'Hello {name}. Welcome to my game. I hope you enjoy your time here.')
 
 # Main Menu
+while True:
 start = input('Start the game, or learn how to play first? Start/Learn > ')
 if start == 'Start':
     print(f'Okay, {name}. Let us begin.')
+    break
 elif start == 'Learn':
     print("")
     print("The objective of this game is to surive and escape the tundra")
