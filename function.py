@@ -1,2 +1,21 @@
-from run import *
-
+def intro():
+    print("")
+    print("")
+    print("#====================#")
+    print("#                    #")
+    print("#      SNOWFALL      #")
+    print("#                    #")
+    print("#====================#")
+    print("")
+    print("")
+    print("Your vision is...blurry")
+    print("Ears ringing..")
+    print("Everything feels heavy and tired")
+    print("As your vision clears you can make out some silhouettes")
+    print("An orange flickering light to your right")
+    print("A chill runs through your body")
+    print("There is a mechanical wreck 30 meters away")
+    print("Its a small aircraft, its on fire")
+    print('"Right...the storm..."')
+    print("You look down at your self and see a badge")
+    print('"Forest Ranger"')

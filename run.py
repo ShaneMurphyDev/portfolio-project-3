@@ -1,6 +1,9 @@
+from function import *
+
 # Name Input
 name = input('Please enter your name > ')
 print(f'Hello {name}. Welcome to my game. I hope you enjoy your time here.')
+
 
 # Main Menu
 while True:
@@ -9,6 +12,7 @@ while True:
         print("")
         print(f'Okay, {name}. Let us begin.')
         print("")
+        intro()
         break
     elif start == 'Learn':
         print("")
