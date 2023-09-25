@@ -124,7 +124,12 @@ def path3_2():
     print("The freezing cold enters every part of your body")
     print("Unable to pull yourself back out")
     print("This is where you die")
-    print("=== GAME OVER ===")
+    print("Drowned in the depths")
+    retry = input("Would you like to retry? Yes/No >")
+    if retry == 'Yes':
+        intro()
+    elif start == 'No':
+        print("=== GAME OVER ===")
 
 
 # Main Menu
