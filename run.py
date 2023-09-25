@@ -36,20 +36,21 @@ def intro():
     print("Enter the cave just ahead, could be good shelter")
     print("Follow the iced over river")
     print("")
-    firstPath = input("Please choose Mountain/Cave/River > ")
-    if firstPath == 'Mountain':
-        path1()
-    elif firstPath == 'Cave':
-        print("cave")
-        path2()
-    elif firstPath == 'River':
-        print("river")
-        path3()
-    else:
-        print("")
-        print("Invalid choice. Enter 'Mountain' 'Cave' or 'River'.")
-        print("")
+    while True:
         firstPath = input("Please choose Mountain/Cave/River > ")
+        if firstPath == 'Mountain':
+            path1()
+            break
+        elif firstPath == 'Cave':
+            print("cave")
+            path2()
+        elif firstPath == 'River':
+            print("river")
+            path3()
+        else:
+            print("")
+            print("Invalid choice. Enter 'Mountain' 'Cave' or 'River'.")
+            print("")
 
 
 def path1():
