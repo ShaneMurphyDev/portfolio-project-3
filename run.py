@@ -98,6 +98,17 @@ def path3():
     print("Before you lies two paths")
     print("Continue following the widening river")
     print("Cross now, over the ice")
+    while True:
+        thirdPath = input("Please choose Follow/Cross > ")
+        if thirdPath == 'Follow':
+            path3_1()
+            break
+        elif thirdPath == 'Cross':
+            path3_2()
+        else:
+            print("")
+            print("Invalid choice. Please enter 'Follow' or 'Cross'")
+            print("")
 
 
 def path3_1():
