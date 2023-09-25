@@ -223,6 +223,15 @@ def path_clearing():
             print("")
 
 
+def clearingPath_1():
+
+
+def clearingPath_2():
+
+    
+def clearingPath_3():
+
+
 # Main Menu
 while True:
     start = input('Start the game, or learn how to play first? Start/Learn > ')
