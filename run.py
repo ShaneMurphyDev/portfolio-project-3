@@ -73,29 +73,38 @@ elif firstChoice == 'River':
 
 
 def path1():
+    print("")
 
 
 def path1_1():
+    print("")
 
 
 def path1_2():
+    print("")
 
 
 def path2():
+    print("")
 
 
 def path2_1():
+    print("")
 
 
 def path2_2():
+    print("")
 
 
 def path3():
+    print("")
 
 
 def path3_1():
+    print("")
 
 
 def path3_2():
+    print("")
 
 
