@@ -209,13 +209,22 @@ def path_clearing():
         clearingPath = input("Please choose Forest/Field/Marsh > ")
         if clearingPath == 'Forest':
             print("")
-            path3_1()
+            print("You choose to enter the forest")
+            print("The deeper you go, the darker it gets")
+            print("light fades to black")
+            print("you lose all notion of direction")
+            print("a chorus of growling fills the air")
+            print("you are set upon by a wolf pack")
+            print("In a flurry of teeth and claw you are ripped to shreds")
+            print("This is how you died")
+            print("Eaten, alone, in the depths of the forest")
+            retry()
             break
         elif clearingPath == 'Field':
             path3_2()
         elif clearingPath == 'Marsh':
             print("")
-            path3_2()
+            retry()
         else:
             print("")
             print("Invalid choice. Please enter 'Forest' 'Field' or 'Cross'")
