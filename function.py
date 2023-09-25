@@ -1,13 +1,6 @@
 def intro():
     print("")
     print("")
-    print("#====================#")
-    print("#                    #")
-    print("#      SNOWFALL      #")
-    print("#                    #")
-    print("#====================#")
-    print("")
-    print("")
     print("Your vision is...blurry")
     print("Ears ringing..")
     print("Everything feels heavy and tired")

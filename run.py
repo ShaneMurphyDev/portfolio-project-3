@@ -1,6 +1,13 @@
 from function import *
 
 # Name Input
+print("")
+print("#====================#")
+print("#                    #")
+print("#      SNOWFALL      #")
+print("#                    #")
+print("#====================#")
+print("")
 name = input('Please enter your name > ')
 print(f'Hello {name}. Welcome to my game. I hope you enjoy your time here.')
 
@@ -10,9 +17,8 @@ while True:
     start = input('Start the game, or learn how to play first? Start/Learn > ')
     if start == 'Start':
         print("")
-        print(f'Okay, {name}. Let us begin.')
-        print("")
         intro()
+        print("")
         break
     elif start == 'Learn':
         print("")
