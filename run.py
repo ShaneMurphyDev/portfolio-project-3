@@ -103,7 +103,7 @@ def path1_2():
     print("after crossing to the other side")
     print("youre brought to a decline youre able to slide down")
     print("it brings you to an open clearing in the forest")
-    clearingPath()
+    path_clearing()
 
 
 def path2():
@@ -181,7 +181,7 @@ def path3_1():
     print("After what seems like an hour it starts to narrow again")
     print("You find and old wooden bridge that seems safe to cross")
     print("After crossing you find an open clearing")
-    clearingPath()
+    path_clearing()
 
 
 def path3_2():
