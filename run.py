@@ -73,7 +73,7 @@ def path2():
     print("Before you lies two paths")
     print("To the left there is a path that narrows")
     print("You think you could just about squeeze through")
-    print("To the right the path curves around a corner, a warm breeze follows")
+    print("To the right the path curves around a corner")
 
 
 def path2_1():
@@ -86,6 +86,12 @@ def path2_2():
 
 def path3():
     print("")
+    print("You choose to follow the river")
+    print("It takes you in the general direction you need to go")
+    print("The further you go, the wider the river is getting")
+    print("Before you lies two paths")
+    print("Continue following the widening river")
+    print("Cross now, over the ice")
 
 
 def path3_1():
