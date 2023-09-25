@@ -74,16 +74,28 @@ elif firstChoice == 'River':
 
 def path1():
 
+
 def path1_1():
+
 
 def path1_2():
 
 
 def path2():
 
+
 def path2_1():
+
 
 def path2_2():
 
 
 def path3():
+
+
+def path3_1():
+
+
+def path3_2():
+
+
