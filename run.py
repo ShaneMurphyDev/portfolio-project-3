@@ -83,6 +83,19 @@ def path1():
             print("")
 
 
+def path_clearing():
+    print("")
+    print('"im exhausted...need..to keep going.."')
+    print("as you arrive in the clearing you take a few minutes to rest")
+    print("your body temperature has been steadily dropping")
+    print("hunger and thirst are setting in")
+    print("you observe the nearby area")
+    print("before you lies 3 paths")
+    print("A forest, with a snow topped canopy")
+    print("A rocky field, filled stones from small to huge")
+    print("A swampy marsh, looking empty and barren")
+
+
 def path1_1():
     print("")
     print("You choose to go further up the mountain")
