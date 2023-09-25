@@ -224,12 +224,44 @@ def path_clearing():
 
 
 def clearingPath_1():
+    print("")
+    print("You choose to enter the forest")
+    print("The deeper you go, the darker it gets")
+    print("light fades to black")
+    print("you lose all notion of direction")
+    print("a chorus of growling fills the air")
+    print("you are set upon by a wolf pack")
+    print("In a flurry of teeth and claw you are ripped to shreds")
+    print("This is how you died")
+    print("Eaten, alone, in the depths of the forest")
+    retry()
 
 
 def clearingPath_2():
+    print("")
+    print("You choose to cross the stoney field")
+    print("The terrain is rough, often needing to climb over rocks")
+    print("as you make your way through it begins to settle")
+    print("it starts to settle and return to a flat field with a hill")
+    print("you reach the top of the hill and look around")
+    print("there are two points of interest ahead")
+    print("a log cabin, no lights, snow covered roof")
+    print("a vehicle, car maybe, also covered in snow")
+    print("you know you only have to energy to travel to one")        
 
-    
+
 def clearingPath_3():
+    print("")
+    print("You choose to enter the marsh")
+    print("Open air")
+    print("walking feels easier")
+    print("the dirt beneath your feet is soft")
+    print("you realize, too late, you are in the middle of a mud lake")
+    print("your feet are stuck, and going deeper")
+    print("as the mud gets to your torso you know its over")
+    print("This is how you died")
+    print("Sunken, drowned in a lake of mud")
+    retry()
 
 
 # Main Menu
