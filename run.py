@@ -83,10 +83,10 @@ def path2():
     while True:
         secondPath = input("Please choose Left/Right > ")
         if secondPath == 'Left':
-            path3_1()
+            path2_1()
             break
         elif secondPath == 'Right':
-            path3_2()
+            path2_2()
         else:
             print("")
             print("Invalid choice. Please enter 'Left' or 'Right'")
@@ -95,10 +95,27 @@ def path2():
 
 def path2_1():
     print("")
+    print("You choose to follow the narrow cave path")
+    print("You get anxious as it closes in around you")
+    print("After a few minutes you come to a dead end")
+    print("Theres a small hole in the wall")
+    print("After climbing through the cave opens up again")
+    print("You follow the cold breeze")
+    print("It leads you back outside")
+    print("Youre on the other side of the mountain")
+    print("an open clearing lies ahead")
 
 
 def path2_2():
     print("")
+    print("You choose to follow the right path")
+    print("After a few minutes of walking")
+    print("You come to an open cavern")
+    print("Foliage litters the floor and...")
+    print("bones!! as you begin to turn around")
+    print("a large creature emerges, a grizzly bear")
+    print("before you can even start running you feel claws in your back")
+    print("The bear tears you apart and eats you")
 
 
 def path3():
