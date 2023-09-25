@@ -38,7 +38,6 @@ def intro():
     print("")
     firstPath = input("Please choose Mountain/Cave/River > ")
     if firstPath == 'Mountain':
-        print("mountain")
         path1()
     elif firstPath == 'Cave':
         print("cave")
@@ -50,6 +49,13 @@ def intro():
 
 def path1():
     print("")
+    print("Though not steep by any means, walking uphill is difficult")
+    print("You get a good view of the surrounding area")
+    print('"Its even colder up here...I cant stay here.."')
+    print("You see the dim lights of the reseach station on the horizon")
+    print("Before you lies 2 possible paths")
+    print("Keep going up, follow the mountain back down on the other side")
+    print("Follow a ledge that straddles around the mountain")
 
 
 def path1_1():
@@ -62,6 +68,12 @@ def path1_2():
 
 def path2():
     print("")
+    print("You enter the cave, the temperature is slightly warmer")
+    print("As you follow the cave the path narrows")
+    print("Before you lies two paths")
+    print("To the left there is a path that narrows")
+    print("You think you could just about squeeze through")
+    print("To the right the path curves around a corner, a warm breeze follows")
 
 
 def path2_1():
