@@ -117,6 +117,14 @@ def path3_1():
 
 def path3_2():
     print("")
+    print("You choose to cross the river")
+    print("As you slowly make your way across the ice")
+    print("You feel it crack, and the sound sends a shiver up your spine")
+    print("Suddenly it gives out and youre plunged into the dark water!")
+    print("The freezing cold enters every part of your body")
+    print("Unable to pull yourself back out")
+    print("This is where you die")
+    print("=== GAME OVER ===")
 
 
 # Main Menu
