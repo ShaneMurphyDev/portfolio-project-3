@@ -247,7 +247,7 @@ def clearingPath_2():
     print("there are two points of interest ahead")
     print("a log cabin, no lights, snow covered roof")
     print("a vehicle, car maybe, also covered in snow")
-    print("you know you only have to energy to travel to one")        
+    print("you know you only have to energy to travel to one")       
 
 
 def clearingPath_3():
@@ -262,6 +262,10 @@ def clearingPath_3():
     print("This is how you died")
     print("Sunken, drowned in a lake of mud")
     retry()
+
+
+def path4():
+    print("")
 
 
 # Main Menu
