@@ -113,6 +113,10 @@ def path3():
 
 def path3_1():
     print("")
+    print("You follow the winding river")
+    print("After what seems like an hour it starts to narrow again")
+    print("You find and old wooden bridge that seems safe to cross")
+    print("After crossing you find an open clearing")
 
 
 def path3_2():
