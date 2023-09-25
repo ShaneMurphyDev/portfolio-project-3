@@ -80,6 +80,17 @@ def path2():
     print("To the left there is a path that narrows")
     print("You think you could just about squeeze through")
     print("To the right the path curves around a corner")
+    while True:
+        secondPath = input("Please choose Left/Right > ")
+        if secondPath == 'Left':
+            path3_1()
+            break
+        elif secondPath == 'Right':
+            path3_2()
+        else:
+            print("")
+            print("Invalid choice. Please enter 'Left' or 'Right'")
+            print("")
 
 
 def path2_1():
