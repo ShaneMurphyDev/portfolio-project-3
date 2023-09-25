@@ -83,19 +83,6 @@ def path1():
             print("")
 
 
-def path_clearing():
-    print("")
-    print('"im exhausted...need..to keep going.."')
-    print("as you arrive in the clearing you take a few minutes to rest")
-    print("your body temperature has been steadily dropping")
-    print("hunger and thirst are setting in")
-    print("you observe the nearby area")
-    print("before you lies 3 paths")
-    print("A forest, with a snow topped canopy")
-    print("A rocky field, filled stones from small to huge")
-    print("A swampy marsh, looking empty and barren")
-
-
 def path1_1():
     print("")
     print("You choose to go further up the mountain")
@@ -205,6 +192,34 @@ def path3_2():
     print("This is where you die")
     print("Drowned in the depths")
     retry()
+
+
+def path_clearing():
+    print("")
+    print('"im exhausted...need..to keep going.."')
+    print("as you arrive in the clearing you take a few minutes to rest")
+    print("your body temperature has been steadily dropping")
+    print("hunger and thirst are setting in")
+    print("you observe the nearby area")
+    print("before you lies 3 paths")
+    print("A forest, with a snow topped canopy")
+    print("A rocky field, filled stones from small to huge")
+    print("A swampy marsh, looking empty and barren")
+    while True:
+        clearingPath = input("Please choose Forest/Field/Marsh > ")
+        if clearingPath == 'Forest':
+            print("")
+            path3_1()
+            break
+        elif clearingPath == 'Field':
+            path3_2()
+        elif clearingPath == 'Marsh':
+            print("")
+            path3_2()
+        else:
+            print("")
+            print("Invalid choice. Please enter 'Forest' 'Field' or 'Cross'")
+            print("")
 
 
 # Main Menu
