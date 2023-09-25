@@ -45,6 +45,11 @@ def intro():
     elif firstPath == 'River':
         print("river")
         path3()
+    else:
+        print("")
+        print("Invalid choice. Enter 'Mountain' 'Cave' or 'River'.")
+        print("")
+        firstPath = input("Please choose Mountain/Cave/River > ")
 
 
 def path1():
