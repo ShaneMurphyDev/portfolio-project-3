@@ -224,6 +224,15 @@ def path_clearing():
             path3_2()
         elif clearingPath == 'Marsh':
             print("")
+            print("You choose to enter the marsh")
+            print("Open air")
+            print("walking feels easier")
+            print("the dirt beneath your feet is soft")
+            print("you realize, too late, you are in the middle of a mud lake")
+            print("your feet are stuck, and going deeper")
+            print("as the mud gets to your torso you know its over")
+            print("This is how you died")
+            print("Sunken, drowned in a lake of mud")
             retry()
         else:
             print("")
