@@ -70,14 +70,25 @@ def path1():
     print("Before you lies 2 possible paths")
     print("Keep going up, follow the mountain back down on the other side")
     print("Follow a ledge that straddles around the mountain")
+    while True:
+        firstPath = input("Please choose Upward/Ledge > ")
+        if firstPath == 'Upward':
+            path1_1()
+            break
+        elif firstPath == 'Ledge':
+            path1_2()
+        else:
+            print("")
+            print("Invalid choice. Please enter 'Left' or 'Right'")
+            print("")
 
 
 def path1_1():
-    print("")
+    print("Up")
 
 
 def path1_2():
-    print("")
+    print("ledge")
 
 
 def path2():
