@@ -84,11 +84,25 @@ def path1():
 
 
 def path1_1():
-    print("Up")
+    print("")
+    print("You choose to go further up the mountain")
+    print("Minutes turn to hours")
+    print("your legs start to feel like stone")
+    print("The peak is not in sight")
+    print('"so...tired..."')
+    print("Your vision begins to fade")
+    print("This is how you died")
+    print("Frozen, near the peak of this mountain")
+    retry()
 
 
 def path1_2():
-    print("ledge")
+    print("")
+    print("You choose to follow the narrow ledge around the mountain")
+    print("Thankfully, you manage to keep your balance")
+    print("after crossing to the other side")
+    print("youre brought to a decline youre able to slide down")
+    print("it brings you to an open clearing in the forest")
 
 
 def path2():
