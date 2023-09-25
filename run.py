@@ -70,3 +70,12 @@ elif firstChoice == 'Cave':
 elif firstChoice == 'River':
     print("")
     path3()
+
+
+def path1():
+
+
+def path2():
+
+
+def path3():
