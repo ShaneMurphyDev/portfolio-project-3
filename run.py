@@ -36,40 +36,16 @@ def intro():
     print("Enter the cave just ahead, could be good shelter")
     print("Follow the iced over river")
     print("")
-    firstChoice = input("Please choose Mountain/Cave/River > ")
-
-
-# Main Menu
-while True:
-    start = input('Start the game, or learn how to play first? Start/Learn > ')
-    if start == 'Start':
-        print("")
-        intro()
-        print("")
-        break
-    elif start == 'Learn':
-        print("")
-        print("The objective of this game is to surive and escape the tundra")
-        print("You will be prompted to make decisions along the way")
-        print("Type your answers and hit enter make a choice")
-        print("Survive untill the end to win the game")
-        print("Make the wrong choice and perish")
-        print("Good luck.")
-        print("")
-    else:
-        print("")
-        print("Invalid choice. Please enter 'Start' or 'Learn'.")
-        print("")
-
-if firstChoice == 'Mountain':
-    print("")
-    path1()
-elif firstChoice == 'Cave':
-    print("")
-    path2()
-elif firstChoice == 'River':
-    print("")
-    path3()
+    firstPath = input("Please choose Mountain/Cave/River > ")
+    if firstPath == 'Mountain':
+        print("mountain")
+        path1()
+    elif firstPath == 'Cave':
+        print("cave")
+        path2()
+    elif firstPath == 'River':
+        print("river")
+        path3()
 
 
 def path1():
@@ -108,3 +84,22 @@ def path3_2():
     print("")
 
 
+# Main Menu
+while True:
+    start = input('Start the game, or learn how to play first? Start/Learn > ')
+    if start == 'Start':
+        intro()
+        break
+    elif start == 'Learn':
+        print("")
+        print("The objective of this game is to surive and escape the tundra")
+        print("You will be prompted to make decisions along the way")
+        print("Type your answers and hit enter make a choice")
+        print("Survive untill the end to win the game")
+        print("Make the wrong choice and perish")
+        print("Good luck.")
+        print("")
+    else:
+        print("")
+        print("Invalid choice. Please enter 'Start' or 'Learn'.")
+        print("")
