@@ -221,7 +221,17 @@ def path_clearing():
             retry()
             break
         elif clearingPath == 'Field':
-            path3_2()
+            print("")
+            print("You choose to cross the stoney field")
+            print("The terrain is rough, often needing to climb over rocks")
+            print("as you make your way through it begins to settle")
+            print("it starts to settle and return to a flat field with a hill")
+            print("you reach the top of the hill and look around")
+            print("there are two points of interest ahead")
+            print("a log cabin, no lights, snow covered roof")
+            print("a vehicle, car maybe, also covered in snow")
+            print("you know you only have to energy to travel to one")
+            
         elif clearingPath == 'Marsh':
             print("")
             print("You choose to enter the marsh")
@@ -236,7 +246,7 @@ def path_clearing():
             retry()
         else:
             print("")
-            print("Invalid choice. Please enter 'Forest' 'Field' or 'Cross'")
+            print("Invalid choice. Please enter 'Forest' 'Field' or 'Marsh'")
             print("")
 
 
