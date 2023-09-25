@@ -63,3 +63,10 @@ while True:
 
 if firstChoice == 'Mountain':
     print("")
+    path1()
+elif firstChoice == 'Cave':
+    print("")
+    path2()
+elif firstChoice == 'River':
+    print("")
+    path3()
