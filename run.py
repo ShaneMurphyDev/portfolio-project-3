@@ -53,6 +53,14 @@ def intro():
             print("")
 
 
+def retry():
+    retry = input("You have died. Would you like to try again? Yes/No")
+    if retry == 'Yes':
+        intro()
+    elif start == 'No':
+        print("=== GAME OVER ===")
+
+
 def path1():
     print("")
     print("Though not steep by any means, walking uphill is difficult")
@@ -116,6 +124,7 @@ def path2_2():
     print("a large creature emerges, a grizzly bear")
     print("before you can even start running you feel claws in your back")
     print("The bear tears you apart and eats you")
+    retry()
 
 
 def path3():
@@ -157,11 +166,7 @@ def path3_2():
     print("Unable to pull yourself back out")
     print("This is where you die")
     print("Drowned in the depths")
-    retry = input("Would you like to retry? Yes/No >")
-    if retry == 'Yes':
-        intro()
-    elif start == 'No':
-        print("=== GAME OVER ===")
+    retry()
 
 
 # Main Menu
