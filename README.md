@@ -11,7 +11,7 @@ The game will feature many branching pathways, some leading to a game over
 and some leading to win scenario. The player will be given situational context 
 and presented with options on which direction they would like to go.
 
-![image of responsivness](assets/images/FlowChart.png)
+![Flowchart](assets/images/FlowChart.png)
 
 - A retry funtion for quality of life gameplay
 - Delayed text for immersion
@@ -29,11 +29,43 @@ and presented with options on which direction they would like to go.
 
     -   #### Returning Visitor Goals
 
-        1. As a Returning Visitor, I want to find information about coding challenges.
-        2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
-        3. As a Returning Visitor, I want to find community links.
+        1. As a Returning Visitor, I want to find new pathways and hame content I missed on the first run
+        2. As a Returning Visitor, I want to have fun exploring the game and be motivated to try new things
+        3. As a Returning Visitor, I want to be challenged with new content 
 
     -   #### Frequent User Goals
-        1. As a Frequent User, I want to check to see if there are any newly added challenges or hackathons.
-        2. As a Frequent User, I want to check to see if there are any new blog posts.
-        3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
+        1. As a Frequent User, I want to check to see if there are any newly added pathways or content.
+
+
+### Languages used
+-   [PYTHON](https://en.wikipedia.org/wiki/Python_(programming_language))
+
+
+## Testing
+The Ci Python Linter was used to validate every page of the project to ensure there were no syntax errors in the project.
+
+![Validation](assets/images/Validation.png)
+
+## Deployment
+
+### Heroku
+
+This project has been deployed via Heroku
+
+## Credits 
+
+### Images
+
+All images were created by the developer
+
+### Code
+
+I learned how to make a time delaye [here](https://realpython.com/python-sleep/)
+
+All code was written by the developer
+
+### Acknowledgements <3
+
+-   My Mentor for continuous helpful feedback.
+
+-   Tutor support at Code Institute for their support.
