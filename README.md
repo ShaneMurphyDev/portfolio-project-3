@@ -14,9 +14,13 @@ and presented with options on which direction they would like to go.
 ![Flowchart](assets/images/FlowChart.png)
 
 - A retry funtion for quality of life gameplay
+
 - Delayed text for immersion
+
 - Name personalization
+
 - Error validation
+
 - Learn to play section
 
 -   ### User stories
@@ -43,7 +47,9 @@ As the player makes choices and used inputs, the game will progress and set the 
 
 ![ingame](assets/images/ingame1.png)
 
+
 ![choice](assets/images/ingame2.png)
+
 
 ### Languages used
 -   [PYTHON](https://en.wikipedia.org/wiki/Python_(programming_language))
@@ -58,7 +64,7 @@ The Ci Python Linter was used to validate every page of the project to ensure th
 
 ### Heroku
 
-This project has been deployed via Heroku
+This project has been deployed via [Heroku](https://www.heroku.com/platform)
 
 ## Credits 
 
