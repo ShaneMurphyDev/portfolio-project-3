@@ -15,7 +15,7 @@ print("#                    #")
 print("#====================#")
 print("")
 time.sleep(d)
-name = input('Please enter your name >')
+name = input('Please enter your name > ')
 print(f'Hello {name}. Welcome to my game. I hope you enjoy your time here.')
 print("")
 
@@ -69,7 +69,7 @@ def intro():
     print("")
     time.sleep(d)
     while True:
-        firstPath = input("Please choose Mountain/Cave/River >")
+        firstPath = input("Please choose Mountain/Cave/River > ")
         if firstPath == 'Mountain':
             path1()
             break
@@ -113,7 +113,7 @@ def path1():
     print("")
     time.sleep(d)
     while True:
-        firstPath = input("Please choose Upward/Ledge >")
+        firstPath = input("Please choose Upward/Ledge > ")
         if firstPath == 'Upward':
             path1_1()
             break
@@ -180,7 +180,7 @@ def path2():
     print("")
     time.sleep(d)
     while True:
-        secondPath = input("Please choose Left/Right >")
+        secondPath = input("Please choose Left/Right > ")
         if secondPath == 'Left':
             path2_1()
             break
@@ -255,7 +255,7 @@ def path3():
     print("")
     time.sleep(d)
     while True:
-        thirdPath = input("Please choose Follow/Cross >")
+        thirdPath = input("Please choose Follow/Cross > ")
         if thirdPath == 'Follow':
             path3_1()
             break
@@ -326,7 +326,7 @@ def path_clearing():
     time.sleep(d)
     print("")
     while True:
-        clearingPath = input("Please choose Forest/Field/Marsh >")
+        clearingPath = input("Please choose Forest/Field/Marsh > ")
         if clearingPath == 'Forest':
             clearingPath_1()
             break
@@ -411,7 +411,7 @@ def clearingPath_2():
     print("")
     time.sleep(d)
     while True:
-        thirdPath = input("Please choose Cabin/Car >")
+        thirdPath = input("Please choose Cabin/Car > ")
         if thirdPath == 'Cabin':
             cabin()
             break
@@ -465,7 +465,7 @@ def cabin():
     print("")
     time.sleep(d)
     while True:
-        thirdPath = input("Please choose Stay/Leave >")
+        thirdPath = input("Please choose Stay/Leave > ")
         if thirdPath == 'Stay':
             stay()
             break
@@ -537,7 +537,7 @@ def stay():
 
 # Main Menu
 while True:
-    start = input('Start, or learn how to play first? Start/Learn >')
+    start = input('Start, or learn how to play first? Start/Learn > ')
     if start == 'Start':
         intro()
         break
