@@ -3,7 +3,7 @@ import time
 
 
 # d = delay, creates time delay for text
-d = 1.2
+d = 1.5
 
 
 # Name Input
