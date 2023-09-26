@@ -370,7 +370,7 @@ def stay():
 
 # Main Menu
 while True:
-    start = input('Start the game, or learn how to play first? Start/Learn > /n')
+    start = input('Start, or learn how to play first? Start/Learn >/n')
     if start == 'Start':
         intro()
         break
