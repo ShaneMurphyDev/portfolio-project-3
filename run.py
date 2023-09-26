@@ -3,7 +3,7 @@ import time
 
 
 # d = delay, creates time delay for text
-d = 1
+d = 1.2
 
 
 # Name Input
@@ -23,30 +23,51 @@ print("")
 #  Intro
 def intro():
     print("")
-    print("")
     print("Your vision is...blurry")
+    time.sleep(d)
     print("Ears ringing..")
+    time.sleep(d)
     print("Everything feels heavy and tired")
+    time.sleep(d)
     print("As your vision clears you can make out some silhouettes")
+    time.sleep(d)
     print("An orange flickering light to your right")
+    time.sleep(d)
     print("A chill runs through your body")
+    time.sleep(d)
     print("There is a mechanical wreck 30 meters away")
+    time.sleep(d)
     print("Its a small aircraft, its on fire")
+    time.sleep(d)
     print('"Right...the storm..."')
+    time.sleep(d)
     print("You look down at yourself and see a badge")
+    time.sleep(d)
     print('"Forest Ranger"')
+    time.sleep(d)
     print("You start to recall the crash")
+    time.sleep(d)
     print("A blur or lights flashing and alarms ringing")
+    time.sleep(d)
     print("You were on your way to an isolated research center")
+    time.sleep(d)
     print("You did your best to land safely but the tree line..")
+    time.sleep(d)
     print("made that impossible")
+    time.sleep(d)
     print("You pick yourself up from the ground")
+    time.sleep(d)
     print("I need to get to the research station..12 miles east")
+    time.sleep(d)
     print("Before you lies 3 paths")
+    time.sleep(d)
     print("Continue further up the mountain, shortest but most direct route")
+    print("")
     print("Enter the cave just ahead, could be good shelter")
+    print("")
     print("Follow the iced over river")
     print("")
+    time.sleep(d)
     while True:
         firstPath = input("Please choose Mountain/Cave/River >")
         if firstPath == 'Mountain':
