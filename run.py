@@ -73,6 +73,7 @@ def path1():
     print("Before you lies 2 possible paths")
     print("Keep going up, follow the mountain back down on the other side")
     print("Follow a ledge that straddles around the mountain")
+    print("")
     while True:
         firstPath = input("Please choose Upward/Ledge > /n")
         if firstPath == 'Upward':
@@ -96,6 +97,7 @@ def path1_1():
     print("Your vision begins to fade")
     print("This is how you died")
     print("Frozen, near the peak of this mountain")
+    print("")
     retry()
 
 
@@ -106,6 +108,7 @@ def path1_2():
     print("after crossing to the other side")
     print("youre brought to a decline youre able to slide down")
     print("it brings you to an open clearing in the forest")
+    print("")
     path_clearing()
 
 
@@ -118,6 +121,7 @@ def path2():
     print("To the left there is a path that narrows")
     print("You think you could just about squeeze through")
     print("To the right the path curves around a corner")
+    print("")
     while True:
         secondPath = input("Please choose Left/Right > /n")
         if secondPath == 'Left':
@@ -142,6 +146,7 @@ def path2_1():
     print("It leads you back outside")
     print("Youre on the other side of the mountain")
     print("an open clearing lies ahead")
+    print("")
     path_clearing()
 
 
@@ -155,6 +160,7 @@ def path2_2():
     print("a large creature emerges, a grizzly bear")
     print("before you can even start running you feel claws in your back")
     print("The bear tears you apart and eats you")
+    print("")
     retry()
 
 
@@ -167,6 +173,7 @@ def path3():
     print("Before you lies two paths")
     print("Continue following the widening river")
     print("Cross now, over the ice")
+    print("")
     while True:
         thirdPath = input("Please choose Follow/Cross > /n")
         if thirdPath == 'Follow':
@@ -186,6 +193,7 @@ def path3_1():
     print("After what seems like an hour it starts to narrow again")
     print("You find and old wooden bridge that seems safe to cross")
     print("After crossing you find an open clearing")
+    print("")
     path_clearing()
 
 
@@ -199,6 +207,7 @@ def path3_2():
     print("Unable to pull yourself back out")
     print("This is where you die")
     print("Drowned in the depths")
+    print("")
     retry()
 
 
@@ -214,6 +223,7 @@ def path_clearing():
     print("A forest, with a snow topped canopy")
     print("A rocky field, filled stones from small to huge")
     print("A swampy marsh, looking empty and barren")
+    print("")
     while True:
         clearingPath = input("Please choose Forest/Field/Marsh > /n")
         if clearingPath == 'Forest':
@@ -240,6 +250,7 @@ def clearingPath_1():
     print("In a flurry of teeth and claw you are ripped to shreds")
     print("This is how you died")
     print("Eaten, alone, in the depths of the forest")
+    print("")
     retry()
 
 
@@ -254,6 +265,7 @@ def clearingPath_3():
     print("as the mud gets to your torso you know its over")
     print("This is how you died")
     print("Sunken, drowned in a lake of mud")
+    print("")
     retry()
 
 
@@ -269,6 +281,7 @@ def clearingPath_2():
     print("a log cabin, no lights, snow covered roof")
     print("a vehicle, car maybe, also covered in snow")
     print("you know you only have to energy to travel to one")
+    print("")
     while True:
         thirdPath = input("Please choose Cabin/Car > /n")
         if thirdPath == 'Cabin':
@@ -292,6 +305,7 @@ def car():
     print("but the wreck has nothing to offer but the bitter cold")
     print("This is how you died")
     print("Frozen inside scrap metal remains")
+    print("")
     retry()
 
 
@@ -305,6 +319,7 @@ def cabin():
     print("Youre not far from the station now...")
     print("Stay the night, and continue tomorrow")
     print("Or catch your breath, and try to make it tonight")
+    print("")
     while True:
         thirdPath = input("Please choose Stay/Leave > /n")
         if thirdPath == 'Stay':
@@ -328,6 +343,7 @@ def leave():
     print("a sense of hopelessness creeps in as you wander")
     print("this is how you died")
     print("lost and alone")
+    print("")
     retry()
 
 
@@ -371,4 +387,3 @@ while True:
         print("")
         print("Invalid choice. Please enter 'Start' or 'Learn'.")
         print("")
-
