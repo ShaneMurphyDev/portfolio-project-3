@@ -295,10 +295,20 @@ def cabin():
     print("but you manage to open a window and enter")
     print("everything is dustry")
     print("it's clear nobody has been here in a long time")
+    print("Youre not far from the station now...")
     print("Stay the night, and continue tomorrow")
     print("Or catch your breath, and try to make it tonight")
-    
-
+    while True:
+        thirdPath = input("Please choose Stay/Leave > ")
+        if thirdPath == 'Stay':
+            stay()
+            break
+        elif thirdPath == 'Leave':
+            leave()
+        else:
+            print("")
+            print("Invalid choice. Please enter 'Stay' or 'Leave'")
+            print("")
 
 
 # Main Menu
