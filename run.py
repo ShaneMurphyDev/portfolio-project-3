@@ -331,7 +331,7 @@ def path_clearing():
             clearingPath_1()
             break
         elif clearingPath == 'Field':
-            clearingPath_2()           
+            clearingPath_2()
         elif clearingPath == 'Marsh':
             clearingPath_3()
         else:
