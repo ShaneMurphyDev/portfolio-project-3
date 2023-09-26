@@ -237,19 +237,6 @@ def clearingPath_1():
     retry()
 
 
-def clearingPath_2():
-    print("")
-    print("You choose to cross the stoney field")
-    print("The terrain is rough, often needing to climb over rocks")
-    print("as you make your way through it begins to settle")
-    print("it starts to settle and return to a flat field with a hill")
-    print("you reach the top of the hill and look around")
-    print("there are two points of interest ahead")
-    print("a log cabin, no lights, snow covered roof")
-    print("a vehicle, car maybe, also covered in snow")
-    print("you know you only have to energy to travel to one")       
-
-
 def clearingPath_3():
     print("")
     print("You choose to enter the marsh")
@@ -264,8 +251,53 @@ def clearingPath_3():
     retry()
 
 
-def path4():
+def clearingPath_2():
     print("")
+    print("You choose to cross the stoney field")
+    print("The terrain is rough, often needing to climb over rocks")
+    print("as you make your way through it begins to settle")
+    print("it starts to settle and return to a flat field with a hill")
+    print("you reach the top of the hill and look around")
+    print("there are two points of interest ahead")
+    print("a log cabin, no lights, snow covered roof")
+    print("a vehicle, car maybe, also covered in snow")
+    print("you know you only have to energy to travel to one")
+    while True:
+        thirdPath = input("Please choose Cabin/Car > ")
+        if thirdPath == 'Cabin':
+            cabin()
+            break
+        elif thirdPath == 'Car':
+            car()
+        else:
+            print("")
+            print("Invalid choice. Please enter 'Cabin' or 'Car'")
+            print("")
+
+
+def car():
+    print("")
+    print("Ypu choose to head towards the car")
+    print("As you get closer you notice something is off")
+    print("It isnt really a car after all")
+    print("but the remains of one, scrap")
+    print("you climb inside to look around for anything useful")
+    print("but the wreck has nothing to offer but the bitter cold")
+    print("This is how you died")
+    print("Frozen inside scrap metal remains")
+    retry()
+
+
+def cabin():
+    print("")
+    print("You choose to head towards the cabin")
+    print("as you approach you notice the door is barred shut")
+    print("but you manage to open a window and enter")
+    print("everything is dustry")
+    print("it's clear nobody has been here in a long time")
+    print("Stay the night, and continue tomorrow")
+    print("Or catch your breath, and try to make it tonight")
+    
 
 
 # Main Menu
