@@ -9,7 +9,7 @@ print("")
 name = input('Please enter your name > ')
 print(f'Hello {name}. Welcome to my game. I hope you enjoy your time here.')
 
-
+#  Intro
 def intro():
     print("")
     print("")
@@ -52,7 +52,7 @@ def intro():
             print("Invalid choice. Enter 'Mountain' 'Cave' or 'River'.")
             print("")
 
-
+# Retry funtion
 def retry():
     retry = input("Its over. Would you like to try again? Yes/No")
     if retry == 'Yes':
@@ -60,7 +60,7 @@ def retry():
     elif start == 'No':
         print("=== GAME OVER ===")
 
-
+# First Pathway
 def path1():
     print("")
     print("Though not steep by any means, walking uphill is difficult")
@@ -105,7 +105,7 @@ def path1_2():
     print("it brings you to an open clearing in the forest")
     path_clearing()
 
-
+# 2nd Pathway
 def path2():
     print("")
     print("You enter the cave, the temperature is slightly warmer")
@@ -153,7 +153,7 @@ def path2_2():
     print("The bear tears you apart and eats you")
     retry()
 
-
+# 3rd Pathway
 def path3():
     print("")
     print("You choose to follow the river")
@@ -196,7 +196,7 @@ def path3_2():
     print("Drowned in the depths")
     retry()
 
-
+# 4th Pathway
 def path_clearing():
     print("")
     print('"im exhausted...need..to keep going.."')
@@ -250,7 +250,7 @@ def clearingPath_3():
     print("Sunken, drowned in a lake of mud")
     retry()
 
-
+# 5th Pathway
 def clearingPath_2():
     print("")
     print("You choose to cross the stoney field")
