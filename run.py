@@ -311,6 +311,24 @@ def cabin():
             print("")
 
 
+def leave():
+    print("")
+    print("you chose to leave")
+    print("you know youre close, you feel it")
+    print("the sun begins to set, as you start to feel anxious")
+    print("the sense of familiarity begins to fade")
+    print("you realise youre lost again")
+    print("a sense of hopelessness creeps in as you wander")
+    print("this is how you died")
+    print("lost and alone")
+    retry()
+
+
+def stay():
+    print("")
+    print("Y")
+
+
 # Main Menu
 while True:
     start = input('Start the game, or learn how to play first? Start/Learn > ')
