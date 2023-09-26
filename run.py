@@ -61,6 +61,7 @@ def intro():
     time.sleep(d)
     print("Before you lies 3 paths")
     time.sleep(d)
+    print("")
     print("Continue further up the mountain, shortest but most direct route")
     print("")
     print("Enter the cave just ahead, could be good shelter")
@@ -87,7 +88,7 @@ def intro():
 
 # Retry funtion
 def retry():
-    retry = input('Its over. Would you like to try again? Yes/No /n')
+    retry = input('Its over. Would you like to try again? Yes/No >')
     if retry == 'Yes':
         intro()
     elif start == 'No':
