@@ -6,7 +6,7 @@ print("#      SNOWFALL      #")
 print("#                    #")
 print("#====================#")
 print("")
-name = input('Please enter your name > ')
+name = input('Please enter your name > /n')
 print(f'Hello {name}. Welcome to my game. I hope you enjoy your time here.')
 
 
@@ -38,7 +38,7 @@ def intro():
     print("Follow the iced over river")
     print("")
     while True:
-        firstPath = input("Please choose Mountain/Cave/River > ")
+        firstPath = input("Please choose Mountain/Cave/River > /n")
         if firstPath == 'Mountain':
             path1()
             break
@@ -56,7 +56,7 @@ def intro():
 
 # Retry funtion
 def retry():
-    retry = input("Its over. Would you like to try again? Yes/No")
+    retry = input('Its over. Would you like to try again? Yes/No /n')
     if retry == 'Yes':
         intro()
     elif start == 'No':
@@ -74,7 +74,7 @@ def path1():
     print("Keep going up, follow the mountain back down on the other side")
     print("Follow a ledge that straddles around the mountain")
     while True:
-        firstPath = input("Please choose Upward/Ledge > ")
+        firstPath = input("Please choose Upward/Ledge > /n")
         if firstPath == 'Upward':
             path1_1()
             break
@@ -119,7 +119,7 @@ def path2():
     print("You think you could just about squeeze through")
     print("To the right the path curves around a corner")
     while True:
-        secondPath = input("Please choose Left/Right > ")
+        secondPath = input("Please choose Left/Right > /n")
         if secondPath == 'Left':
             path2_1()
             break
@@ -168,7 +168,7 @@ def path3():
     print("Continue following the widening river")
     print("Cross now, over the ice")
     while True:
-        thirdPath = input("Please choose Follow/Cross > ")
+        thirdPath = input("Please choose Follow/Cross > /n")
         if thirdPath == 'Follow':
             path3_1()
             break
@@ -215,12 +215,12 @@ def path_clearing():
     print("A rocky field, filled stones from small to huge")
     print("A swampy marsh, looking empty and barren")
     while True:
-        clearingPath = input("Please choose Forest/Field/Marsh > ")
+        clearingPath = input("Please choose Forest/Field/Marsh > /n")
         if clearingPath == 'Forest':
             clearingPath_1()
             break
         elif clearingPath == 'Field':
-            clearingPath_2()            
+            clearingPath_2()           
         elif clearingPath == 'Marsh':
             clearingPath_3()
         else:
@@ -270,7 +270,7 @@ def clearingPath_2():
     print("a vehicle, car maybe, also covered in snow")
     print("you know you only have to energy to travel to one")
     while True:
-        thirdPath = input("Please choose Cabin/Car > ")
+        thirdPath = input("Please choose Cabin/Car > /n")
         if thirdPath == 'Cabin':
             cabin()
             break
@@ -306,7 +306,7 @@ def cabin():
     print("Stay the night, and continue tomorrow")
     print("Or catch your breath, and try to make it tonight")
     while True:
-        thirdPath = input("Please choose Stay/Leave > ")
+        thirdPath = input("Please choose Stay/Leave > /n")
         if thirdPath == 'Stay':
             stay()
             break
@@ -354,7 +354,7 @@ def stay():
 
 # Main Menu
 while True:
-    start = input('Start the game, or learn how to play first? Start/Learn > ')
+    start = input('Start the game, or learn how to play first? Start/Learn > /n')
     if start == 'Start':
         intro()
         break
