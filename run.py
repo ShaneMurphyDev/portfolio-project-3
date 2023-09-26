@@ -1,3 +1,11 @@
+import sys
+import time
+
+
+# d = delay, creates time delay for text
+d = 1
+
+
 # Name Input
 print("")
 print("#====================#")
@@ -6,8 +14,10 @@ print("#      SNOWFALL      #")
 print("#                    #")
 print("#====================#")
 print("")
-name = input('Please enter your name > /n')
+time.sleep(d)
+name = input('Please enter your name >')
 print(f'Hello {name}. Welcome to my game. I hope you enjoy your time here.')
+print("")
 
 
 #  Intro
@@ -38,7 +48,7 @@ def intro():
     print("Follow the iced over river")
     print("")
     while True:
-        firstPath = input("Please choose Mountain/Cave/River > /n")
+        firstPath = input("Please choose Mountain/Cave/River >")
         if firstPath == 'Mountain':
             path1()
             break
@@ -75,7 +85,7 @@ def path1():
     print("Follow a ledge that straddles around the mountain")
     print("")
     while True:
-        firstPath = input("Please choose Upward/Ledge > /n")
+        firstPath = input("Please choose Upward/Ledge >")
         if firstPath == 'Upward':
             path1_1()
             break
@@ -123,7 +133,7 @@ def path2():
     print("To the right the path curves around a corner")
     print("")
     while True:
-        secondPath = input("Please choose Left/Right > /n")
+        secondPath = input("Please choose Left/Right >")
         if secondPath == 'Left':
             path2_1()
             break
@@ -175,7 +185,7 @@ def path3():
     print("Cross now, over the ice")
     print("")
     while True:
-        thirdPath = input("Please choose Follow/Cross > /n")
+        thirdPath = input("Please choose Follow/Cross >")
         if thirdPath == 'Follow':
             path3_1()
             break
@@ -225,7 +235,7 @@ def path_clearing():
     print("A swampy marsh, looking empty and barren")
     print("")
     while True:
-        clearingPath = input("Please choose Forest/Field/Marsh > /n")
+        clearingPath = input("Please choose Forest/Field/Marsh >")
         if clearingPath == 'Forest':
             clearingPath_1()
             break
@@ -283,7 +293,7 @@ def clearingPath_2():
     print("you know you only have to energy to travel to one")
     print("")
     while True:
-        thirdPath = input("Please choose Cabin/Car > /n")
+        thirdPath = input("Please choose Cabin/Car >")
         if thirdPath == 'Cabin':
             cabin()
             break
@@ -321,7 +331,7 @@ def cabin():
     print("Or catch your breath, and try to make it tonight")
     print("")
     while True:
-        thirdPath = input("Please choose Stay/Leave > /n")
+        thirdPath = input("Please choose Stay/Leave >")
         if thirdPath == 'Stay':
             stay()
             break
@@ -370,7 +380,7 @@ def stay():
 
 # Main Menu
 while True:
-    start = input('Start, or learn how to play first? Start/Learn >/n')
+    start = input('Start, or learn how to play first? Start/Learn >')
     if start == 'Start':
         intro()
         break
