@@ -54,7 +54,7 @@ def intro():
 
 
 def retry():
-    retry = input("You have died. Would you like to try again? Yes/No")
+    retry = input("Its over. Would you like to try again? Yes/No")
     if retry == 'Yes':
         intro()
     elif start == 'No':
@@ -326,7 +326,23 @@ def leave():
 
 def stay():
     print("")
-    print("Y")
+    print("You choose to stay")
+    print("there is a small old looking bed and a fireplace")
+    print("after some looking around you manage to light a small fire")
+    print("the cabin warms, taking the chill out of your bones")
+    print("you fall asleep for what feel like forever")
+    print("the fire has died and its cold again")
+    print("you get up and get ready for the rest of the trip")
+    print("back to the bitter cold")
+    print("After a while, you spot the station on the horizon")
+    print("Motivation surges")
+    print("Youre going to make it")
+    print("")
+    print("")
+    print(f"Congratulations, {name}! You have beat the game.")
+    print("You made many wise decisions to get here")
+    print("I hope you have enjoyed the journey")
+    retry()
 
 
 # Main Menu
