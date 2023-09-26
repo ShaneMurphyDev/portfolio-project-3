@@ -37,6 +37,14 @@ and presented with options on which direction they would like to go.
         1. As a Frequent User, I want to check to see if there are any newly added pathways or content.
 
 
+## Structure
+
+As the player makes choices and used inputs, the game will progress and set the scene for them
+
+![ingame](assets/images/ingame1.png)
+
+![choice](assets/images/ingame2.png)
+
 ### Languages used
 -   [PYTHON](https://en.wikipedia.org/wiki/Python_(programming_language))
 
