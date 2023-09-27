@@ -57,7 +57,7 @@ def intro():
     time.sleep(d)
     print("You pick yourself up from the ground")
     time.sleep(d)
-    print("I need to get to the research station..12 miles east")
+    print("I need to get to the research station..20 miles east")
     time.sleep(d)
     print("Before you lies 3 paths")
     time.sleep(d)
@@ -70,15 +70,18 @@ def intro():
     print("")
     time.sleep(d)
     while True:
-        firstPath = input("Please choose Mountain/Cave/River > ")
+        firstPath = input("Please choose Mountain / Cave / River > ")
+        print("")
         if firstPath == 'Mountain':
             path1()
             break
         elif firstPath == 'Cave':
             print("cave")
+            print("")
             path2()
         elif firstPath == 'River':
             print("river")
+            print("")
             path3()
         else:
             print("")
@@ -120,7 +123,7 @@ def path1():
     print("")
     time.sleep(d)
     while True:
-        firstPath = input("Please choose Upward/Ledge > ")
+        firstPath = input("Please choose Upward / Ledge > ")
         if firstPath == 'Upward':
             path1_1()
             break
@@ -128,7 +131,7 @@ def path1():
             path1_2()
         else:
             print("")
-            print("Invalid choice. Please enter 'Left' or 'Right'")
+            print("Invalid choice. Please enter 'Upward' or 'Ledge'")
             print("")
 
 
@@ -175,7 +178,7 @@ def path2():
     print("")
     print("You enter the cave, the temperature is slightly warmer")
     time.sleep(d)
-    print("As you follow the cave the path narrows")
+    print("As you follow the cave the path splits")
     time.sleep(d)
     print("Before you lies two paths")
     time.sleep(d)
@@ -187,7 +190,7 @@ def path2():
     print("")
     time.sleep(d)
     while True:
-        secondPath = input("Please choose Left/Right > ")
+        secondPath = input("Please choose Left / Right > ")
         if secondPath == 'Left':
             path2_1()
             break
@@ -262,7 +265,7 @@ def path3():
     print("")
     time.sleep(d)
     while True:
-        thirdPath = input("Please choose Follow/Cross > ")
+        thirdPath = input("Please choose Follow / Cross > ")
         if thirdPath == 'Follow':
             path3_1()
             break
@@ -333,7 +336,7 @@ def path_clearing():
     time.sleep(d)
     print("")
     while True:
-        clearingPath = input("Please choose Forest/Field/Marsh > ")
+        clearingPath = input("Please choose Forest / Field / Marsh > ")
         if clearingPath == 'Forest':
             clearingPath_1()
             break
@@ -418,7 +421,7 @@ def clearingPath_2():
     print("")
     time.sleep(d)
     while True:
-        thirdPath = input("Please choose Cabin/Car > ")
+        thirdPath = input("Please choose Cabin / Car > ")
         if thirdPath == 'Cabin':
             cabin()
             break
@@ -472,7 +475,7 @@ def cabin():
     print("")
     time.sleep(d)
     while True:
-        thirdPath = input("Please choose Stay/Leave > ")
+        thirdPath = input("Please choose Stay / Leave > ")
         if thirdPath == 'Stay':
             stay()
             break
