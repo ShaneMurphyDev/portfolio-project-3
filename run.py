@@ -88,11 +88,17 @@ def intro():
 
 # Retry funtion
 def retry():
-    retry = input('Its over. Would you like to try again? Yes/No >')
-    if retry == 'Yes':
-        intro()
-    elif start == 'No':
-        print("=== GAME OVER ===")
+    while True:
+        retry = input('Its over. Would you like to try again? Yes/No >')
+        if retry == 'Yes':
+            intro()
+            break
+        elif start == 'No':
+            print("=== GAME OVER ===")
+        else:
+            print("")
+            print("Invalid choice. Enter 'Yes' or 'No'.")
+            print("")
 
 
 # First Pathway
