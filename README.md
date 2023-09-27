@@ -61,35 +61,35 @@ I have created a notification and correction for when when a player mistypes a c
 
 -   #### First Time Visitor Goals
 
-    1. As a First Time Visitor, I want to easily understand the main purpose of the app and learn how to play the game
+    - As a First Time Visitor, I want to easily understand the main purpose of the app and learn how to play the game
 
 - I have put alot of time into text organization and clarity to ensure any users have a pleasant and easy experience
 
 -   #### Returning Visitor Goals
 
-    1. As a Returning Visitor, I want to find new pathways, story, and outcomes when I replay the game
+    - As a Returning Visitor, I want to find new pathways, story, and outcomes when I replay the game
 
 - I have created many possible outcomes and choices in the game to ensure the player would be excited to explore more
 
 -   #### Frequent User Goals
 
-    1. As a Frequent User, I want to check to see if there are any newly added story, text, outcomes, options.
+    - As a Frequent User, I want to check to see if there are any newly added story, text, outcomes, options.
 
 - I plan to update the game with addition pathways, choices, and outcomes so players would always feel like theres more to see
 
-## Testing / Bugs
 
+### Languages used
+
+-   [PYTHON](https://en.wikipedia.org/wiki/Python_(programming_language))
+
+## Testing
+
+The Ci Python Linter was used to validate every page of the project to ensure there were no syntax errors in the project
 I have tested all pathways and options in the game and have found no bugs or issues with the code
 
 
-### Languages used
--   [PYTHON](https://en.wikipedia.org/wiki/Python_(programming_language))
-
-
-## Testing
-The Ci Python Linter was used to validate every page of the project to ensure there were no syntax errors in the project.
-
 ![Validation](assets/images/pythonlinter.png)
+
 
 ## Deployment
 
