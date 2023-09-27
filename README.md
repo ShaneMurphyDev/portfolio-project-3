@@ -55,7 +55,7 @@ As the player makes choices and used inputs, the game will progress and set the 
 I have created a notification and correction for when when a player mistypes a command
 
 
-[Error](assets/images/errorhandle.png)
+![Error](assets/images/errorhandle.png)
 
 ### Testing User Stories from User Experience (UX) Section
 
